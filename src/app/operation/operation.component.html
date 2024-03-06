@@ -1,0 +1,23 @@
+<div class="operation">
+        
+        <label>Enter Number 1 :</label>
+        <input type="number" placeholder="Enter number" [(ngModel)]="number1"><br/><br/>
+        <label>Enter Number 2 :</label>
+        <input type="number"  placeholder="Enter number" [(ngModel)]="number2"><br/><br/>
+
+        <label class="res">Result : </label>
+        <input class="input" value={{result}}>
+
+        <br/>
+        
+        <button (click)="add()">Addition</button>
+        <button (click)="sub()">Substraction</button>
+        <button (click)="mult()">Multiplication</button>
+        <button (click)="div()">Divide</button><br/>
+
+        <button class="clr" (click)="disable()">Clear</button><br/><br/>
+
+        <button class="in" (click)="increment()"> Increment</button>
+        <button class="dc" (click)="decrement()">Decrement</button>
+
+</div>

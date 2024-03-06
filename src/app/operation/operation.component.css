@@ -1,0 +1,87 @@
+.operation{
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 2rem;
+    justify-content: center;
+    border: solid rgb(255, 225, 225);
+    height: 500px;
+    width: 700px;
+    border-radius: 2rem;
+    border-width: 0.5rem;
+    padding: 1.5%;
+
+        background-image: url('/assets/image.png'); 
+        background-size: cover;
+        background-position: center;
+        
+}
+
+.operation .res{
+    margin-left: 10rem;
+    margin-bottom: 2rem;
+    
+}
+.operation .input{
+    margin-left: 3rem;
+    width: 7rem;
+    margin-bottom: 2rem;
+}
+.operation label,input{
+    margin-left: 55px;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    
+}
+
+.operation input{
+    padding-left: 0.5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    
+}
+.operation button{
+    color: #eee;
+    background-color: green;
+    margin-top: 15px;
+    margin-left: 55px;
+    height: 3rem;
+    width: 7.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.operation button:hover{
+    color: black;
+    background-color: rgb(83, 225, 83);
+}
+.operation .clr{
+    margin-left: 45%;
+    margin-right: 40%;
+    margin-top:25px;
+    align-items: center;
+    background-color: #eee;
+    color: black;
+}
+
+.operation .clr:hover{
+    background-color: gray;
+}
+
+.operation .in{
+    margin-left: 33%;
+    align-items: center;
+    color: black;
+    background-color: rgb(151, 187, 219);
+}
+.operation .in:hover{
+    background-color: rgb(84, 188, 222);
+}
+.operation .dc{
+    margin-right: 23%;
+    align-items: center;
+    color: black;
+    background-color:  rgb(151, 187, 219);
+}
+.operation .dc:hover{
+    background-color: lightsalmon;
+}

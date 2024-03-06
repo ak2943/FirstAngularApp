@@ -1,0 +1,16 @@
+.header{
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+
+.header h1{
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+    background-color:rgb(183, 220, 235);
+    text-transform:uppercase;
+    height: 5rem;
+    padding-top: 2.5rem;
+    border: solid rgb(161, 215, 236);;
+    border-radius: 0.5rem;
+}
